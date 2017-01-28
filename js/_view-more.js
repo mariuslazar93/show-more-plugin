@@ -14,26 +14,26 @@ function ViewMoreComponent(settings) {
         disableSameHeight,
         elementsOnLastRow;
 
-        var defaults = {
-            component: '.view-more-component',
-            elements: '.view-more-element',
-            moreBtn: '.view-more',
-            lessBtn: '.view-less',
-            mobile: {
-                breakpoint: 768,
-                elementsToLoad: 1,
-                initialVisibleElements: 1
-            },
-            tablet: {
-                breakpoint: 992,
-                elementsToLoad: 2,
-                initialVisibleElements: 2
-            },
-            desktop: {
-                elementsToLoad: 3,
-                initialVisibleElements: 3
-            }
-        };
+	var defaults = {
+		component: '.view-more-component',
+		elements: '.view-more-element',
+		moreBtn: '.view-more',
+		lessBtn: '.view-less',
+		mobile: {
+			breakpoint: 768,
+			elementsToLoad: 1,
+			initialVisibleElements: 1
+		},
+		tablet: {
+			breakpoint: 992,
+			elementsToLoad: 2,
+			initialVisibleElements: 2
+		},
+		desktop: {
+			elementsToLoad: 3,
+			initialVisibleElements: 3
+		}
+	};
 
     function handleResize() {
         $elements.hide();
@@ -158,6 +158,5 @@ function ViewMoreComponent(settings) {
             initOptions() && loadContent();
         }
     }
-    console.log('init');
     init(settings);
 };
