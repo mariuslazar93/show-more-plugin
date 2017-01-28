@@ -1,6 +1,6 @@
 # Show more/less plugin
 
-Small customizable JavaScript plugin to use whenever you need the functionality of showing more/less items inside a container.
+Small JavaScript plugin to use whenever you need the functionality of showing more/less items inside a container.
 
 ## Getting Started
 
@@ -44,7 +44,7 @@ The plugin has some useful options:
 
 * `component` - the class selector of the parent container
 * `elements` - the class selector of the blocks that need to be shown/hidden which have to be placed inside parent container
-* `moreBtn` and `lessBtn` - the class selector of the 'view more' and 'view less' buttons which have to be placed inside the parent container
+* `moreBtn` and `lessBtn` - the class selector of the `view more` and `view less` buttons which have to be placed inside the parent container
 * `mobile`, `tablet`, `desktop`
   * `breakpoint` - specify where the breakpoint start (exclusive)
   * `elementsToLoad` - specify how many elements to show/hide at current breakpoint when you press the more/less button
@@ -52,7 +52,7 @@ The plugin has some useful options:
 
 ### Default configuration
 
-When you don't specify any options when you initialized the plugin, the default configuration is applied.
+When you don't specify any options at initialization, the default configuration is applied.
 
 ```javascript
 var defaults = {
@@ -79,7 +79,7 @@ var defaults = {
 
 ### Changing the defaults
 
-You can specify you own configuration which will override the default one when you initialize the plugin.
+You can specify your own configuration which will override the default one when you initialize the plugin.
 
 ```javascript
 var options = {
@@ -116,7 +116,7 @@ Clone or download this repo locally and open index.html inside a browser.
 ## Next steps
 
 * Strong testing with differents configurations
-* Replacing jQuery slideDown and slideUp functions with CSS transitions.
+* Replacing jQuery slideDown and slideUp functions with CSS transitions
 * Complete replace of jQuery with vanilla JavaScript
 * More configuration
 
@@ -126,5 +126,5 @@ Clone or download this repo locally and open index.html inside a browser.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
