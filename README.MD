@@ -2,6 +2,8 @@
 
 Small JavaScript plugin to use whenever you need the functionality of showing more/less items inside a container.
 
+[LIVE DEMO](https://mariuslazar93.github.io/show-more/) 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
