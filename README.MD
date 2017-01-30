@@ -2,7 +2,7 @@
 
 Small JavaScript plugin to use whenever you need the functionality of showing more/less items inside a container.
 
-[LIVE DEMO](https://mariuslazar93.github.io/show-more/) 
+[LIVE DEMO](https://mariuslazar93.github.io/plugins/show-more/) 
 
 ## Getting Started
 
